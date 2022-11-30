@@ -19,6 +19,7 @@ namespace lab1ex6
 
             Console.WriteLine("Numerele in ordine descrescatoare:");
             int[] numereleMele = { x, y, z};
+            Array.Sort(numereleMele);
             Array.Reverse(numereleMele);
             foreach (int i in numereleMele)
             {
